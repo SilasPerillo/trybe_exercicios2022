@@ -1,4 +1,4 @@
-#### Trybe_exercicios
+###### Trybe_exercicios
 
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por Silas Horta Perillo  https://www.linkedin.com/in/silas-perillo-30533a1b7/ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
