@@ -20,3 +20,7 @@
     li:active {
         font-family: sans-serif, Helvetica,;
     }
+
+    li {
+        list-style: none
+    }
