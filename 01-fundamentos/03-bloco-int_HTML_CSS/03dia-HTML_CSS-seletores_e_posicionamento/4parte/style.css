@@ -15,7 +15,7 @@
     */
 
 
-ol {
+ol li {
     background-color: yellow;
 }
 
@@ -31,6 +31,11 @@ h1, h2 ,h3 {
     color: red;
 }
 
+h1 em, h2 em, h3 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
 li {
     font-size: 20px;
 }
@@ -38,3 +43,35 @@ li {
 li em {
     font-weight: 700;
 }
+
+#linguagens li:not(:nth-child(n + 4)) {
+    color: blue;
+}
+
+.bg-rosa {
+    background-color: pink;
+}
+
+#aliados li a:hover {
+    font-weight: 700;
+  }
+  
+#aliados li a[href*="stackoverflow"] {
+    color: orange;
+  }
+  
+  #aliados li a[href*="w3schools"] {
+    color: green;
+  }
+  
+  #aliados li a[href*="mozilla"] {
+    color: black;
+  }
+  
+  #aliados li a[href*="devdocs"] {
+    color: yellow;
+  }
+  
+  #aliados li a[href*="trybe"] {
+    color: green;
+  }
