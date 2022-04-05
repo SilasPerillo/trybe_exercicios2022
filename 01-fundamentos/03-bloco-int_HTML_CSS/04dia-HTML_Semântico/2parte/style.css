@@ -52,3 +52,10 @@ p {
 .video {
     margin-left: 30%;  
 }
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: azure;
+    background-color: black;
+}
