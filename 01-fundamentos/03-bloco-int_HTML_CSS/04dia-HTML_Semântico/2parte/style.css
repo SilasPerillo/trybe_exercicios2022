@@ -1,0 +1,54 @@
+body {
+    background-color: #FFDEAD;
+    background-image: url(./img_bg2.png);
+    background-repeat: repeat-y;
+    background-position-x: center;   
+}
+ 
+header {
+    margin-top: 50px;
+}
+
+nav {
+    background-color: #A020F0;
+    height: 60px;
+    padding-top: 1px;
+    position: relative fixed;
+}
+
+.nav_links li {
+display: inline;
+margin-top: 50px;
+font-size: 25px;
+padding: 5px;
+background-color: aqua;
+}
+
+h1, h2, h3, h4 {
+    font-style: oblique;
+}
+
+.img {
+    height: 300px;
+    float: right;
+    margin-right: 100px;
+}
+
+article {
+    /*border: 2px solid green;*/
+    height: 400px;
+    text-align: center;
+}
+
+#primeiraImg {
+    margin-top: 50px;
+}
+
+p {
+
+    margin-left: 20%;
+}
+
+.video {
+    margin-left: 30%;  
+}
