@@ -1,9 +1,18 @@
-const myName = "Silas";
-const birthCity = "Belo Horizonte";
-let birthYear = 1990;
+let candidata = "asdf";
 
-birthYear = 2030;
+switch (candidata) {
+    case "aprovada":
+     console.log("Vc foi aprovada(o)");
+     break;
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+    case "lista":
+     console.log("Vc esta na lista de espera");
+     break;
+
+    case "reprovada":
+     console.log("Vc foi reprovado!");
+     break;
+
+    default:
+     console.log("Status não reconhecido!");
+}
