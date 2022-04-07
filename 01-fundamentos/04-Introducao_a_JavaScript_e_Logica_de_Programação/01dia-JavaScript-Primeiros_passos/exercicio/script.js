@@ -1,9 +1,9 @@
-/*
-// 1º item do exercicio
-const a = 3;
-const b = 6;
-const c = 9;
 
+// 1º item do exercicio
+const a = 5;
+const b = 7;
+const c = 9;
+/*
 console.log('Adição a + b =', a + b);
 console.log('Subtração a - b =', a - b);
 console.log('Multiplicação a * b =', a * b);
@@ -90,7 +90,10 @@ switch (peca.toLowerCase()) {
     default:
         console.log("A peça mencionada não participa do xadrez")
 }
-*/
+
+
+//7º item do exercicio
+//Escreva um programa que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F.
 
 let nota = 75;
 
@@ -109,4 +112,20 @@ if (nota <= 100 && nota >= 0) {
 } else {
     console.log("Este valor não esta entre 0 e 100")
 }
+*/
 
+//8º item do exercicio
+//Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+
+
+let verificador = (a % 2) + (b % 2) + (c % 2)
+
+if (verificador < 3) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+console.log(a)
+console.log(b)
+console.log(c)
