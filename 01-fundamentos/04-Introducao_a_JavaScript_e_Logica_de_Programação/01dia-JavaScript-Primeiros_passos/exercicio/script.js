@@ -1,5 +1,6 @@
+/*
 // 1º item do exercicio
-const a = -3;
+const a = 3;
 const b = 6;
 const c = 9;
 
@@ -46,4 +47,52 @@ if (a > 0) {
 let somaAngulo = a + b + c;
 let anguloPositivo = a > 0 && b > 0 && c > 0;
 
-console.log(anguloPositivo);
+if (anguloPositivo) {
+    if (somaAngulo === 180) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+} else {
+    console.log("Valor de andulo invalido")
+}
+*/
+//6º item do exercicio
+//Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+
+
+
+let peca = "Rei";
+
+switch (peca.toLowerCase()) {
+    case "rei":
+        console.log("Anda para todas as direções, apenas 1 casa");
+        break;
+    
+    case "rainha":
+        console.log("Anda para todas as direções, quantas casas quiser");
+        break;
+
+    case "bispo":
+        console.log("Anda em diagonal, quantas casas quiser")
+        break;
+    
+    case "torre":
+        console.log("Anda em linhas retas, quantas casas quiser");
+        break;
+
+    case "cavalo":
+        console.log("Anda em L");
+        break;
+
+    case "peao":
+        console.log("No primeiro movimento pode avançar 2 casas, depois avança 1 casa somente. Mas come nas diagonais, somente uma casa tambem");
+        break;
+
+    default:
+        console.log("A peça mencionada não participa do xadrez")
+
+
+
+
+}
