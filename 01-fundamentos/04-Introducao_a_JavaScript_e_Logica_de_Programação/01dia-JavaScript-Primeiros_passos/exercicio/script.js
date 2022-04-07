@@ -156,19 +156,40 @@ if (custoProduto >= 0 && valorVenda >= 0) {
 //11º item do exercicio
 //Uma pessoa de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido por ela.
 
-const salario = 3000
+const salarioBruto = 3000;
+let salarioBase;
+let salarioLiquido;
 
-if (salario > 0) {
-    if (salario > 0 && salario <= 1556,94) {
-        let salarioDeduzindoInss = salario * 0.92;
-    } else if (salario > 1556,94 && salario <= 2594,92) {
-        let salarioDeduzindoInss = salario * 0.91;
-    } else if (salario > 2594,92 && salario <= 5189,82) {
-        let salarioDeduzindoInss = salario * 0.89;
-    } else {
-        let salarioDeduzindoInss = salario - 570.88;
-    }
+
+if (salarioBruto <= 1556.94 && salarioBruto > 0){
+    salarioBase = salarioBruto  - (salarioBruto * 0.08)
+    console.log(salarioBase)
+} else if (salarioBruto > 1556.94 && salarioBruto <= 2594.92){
+    salarioBase = salarioBruto - (salarioBruto * 0.09)
+    console.log(salarioBase)
+} else if (salarioBruto > 2594.92 && salarioBruto <= 5189.82){
+    salarioBase = salarioBruto - (salarioBruto * 0.11)
+    console.log(salarioBase)
+} else if (salarioBruto > 5189.82){
+    salarioBase = salarioBruto - 570.88
+    console.log(salarioBase)
 } else {
-    console.log("o valor deve ser positivo e numerico apenas, Ex'R$ 3.000,00' deve ser imputado '3000'");
+    console.log("Salário não identificado")
 }
 
+if(salarioBase <= 1903.98 && salarioBase > 0){
+    salarioLiquido = salarioBase;
+    console.log(salarioLiquido);
+} else if (salarioBase > 1903.98 && salarioBase <= 2826.66){
+    salarioLiquido = salarioBase - ((salarioBase * 0.075) - 142.80);
+    console.log(salarioLiquido);
+} else if (salarioBase > 2826.66 && salarioBase <= 3751.05){
+    salarioLiquido = salarioBase - ((salarioBase * 0.15) - 354.80);
+    console.log(salarioLiquido);
+} else if (salarioBase > 3751.05 && salarioBase <= 4664.68){
+    salarioLiquido = salarioBase - ((salarioBase * 0.225) - 636.13);
+    console.log(salarioLiquido);
+} else{
+    salarioLiquido = salarioBase - ((salarioBase * 0.275) - 869.36);
+    console.log(salarioLiquido);
+}
