@@ -136,7 +136,6 @@ if (verificadorImpar > 0) {
     console.log(false);
 }
 
-*/
 
 //10º item do exercicio
 //Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
@@ -151,3 +150,25 @@ if (custoProduto >= 0 && valorVenda >= 0) {
 } else {
     console.log("Os valores deve ser positivo e numericos")
 }
+
+*/
+
+//11º item do exercicio
+//Uma pessoa de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido por ela.
+
+const salario = 3000
+
+if (salario > 0) {
+    if (salario > 0 && salario <= 1556,94) {
+        let salarioDeduzindoInss = salario * 0.92;
+    } else if (salario > 1556,94 && salario <= 2594,92) {
+        let salarioDeduzindoInss = salario * 0.91;
+    } else if (salario > 2594,92 && salario <= 5189,82) {
+        let salarioDeduzindoInss = salario * 0.89;
+    } else {
+        let salarioDeduzindoInss = salario - 570.88;
+    }
+} else {
+    console.log("o valor deve ser positivo e numerico apenas, Ex'R$ 3.000,00' deve ser imputado '3000'");
+}
+
