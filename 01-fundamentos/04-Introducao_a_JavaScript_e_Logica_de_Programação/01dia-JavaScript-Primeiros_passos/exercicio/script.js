@@ -1,8 +1,8 @@
 
 // 1º item do exercicio
-const a = 5;
-const b = 7;
-const c = 9;
+const a = 2;
+const b = 4;
+const c = 6;
 /*
 console.log('Adição a + b =', a + b);
 console.log('Subtração a - b =', a - b);
@@ -112,20 +112,28 @@ if (nota <= 100 && nota >= 0) {
 } else {
     console.log("Este valor não esta entre 0 e 100")
 }
-*/
 
 //8º item do exercicio
 //Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
 
 
-let verificador = (a % 2) + (b % 2) + (c % 2)
+let verificadorPar = (a % 2) + (b % 2) + (c % 2)
 
-if (verificador < 3) {
+if (verificadorPar < 3) {
     console.log(true);
 } else {
     console.log(false);
 }
 
-console.log(a)
-console.log(b)
-console.log(c)
+*/
+
+//9º item do exercicio
+//Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
+
+let verificadorImpar = (a % 2) + (b % 2) + (c % 2)
+
+if (verificadorImpar > 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
