@@ -1,5 +1,5 @@
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 /*
 for (var imprimir of numbers) {
@@ -53,8 +53,6 @@ for (let index = 0; index < numbers.length; index += 1) {
 
  console.log(valorMedia);
 
-*/
-
 //5º item
 //Utilizando for , descubra qual o maior valor contido no array e imprima-o;
 
@@ -65,5 +63,24 @@ for (let index = 0; index < numbers.length; index += 1) {
         maiorNumero = numbers[index];
     } 
 }
-
 console.log(maiorNumero)
+
+*/
+
+//6º item
+//Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+
+let valoreImpares = 0
+
+for(let index = 0; index < numbers.length; index += 1) {
+    if(numbers[index] % 2 === 1) {
+        valoreImpares += 1;
+    }
+}
+
+if(valoreImpares > 0) {
+    console.log(valoreImpares);
+} else {
+    console.log("não possui valores impares")
+}
+
