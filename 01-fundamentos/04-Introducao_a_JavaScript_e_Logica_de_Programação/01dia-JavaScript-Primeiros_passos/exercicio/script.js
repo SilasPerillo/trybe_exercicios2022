@@ -1,8 +1,8 @@
 
 // 1º item do exercicio
 const a = 2;
-const b = 4;
-const c = 6;
+const b = 5;
+const c = 9;
 /*
 console.log('Adição a + b =', a + b);
 console.log('Subtração a - b =', a - b);
@@ -125,8 +125,6 @@ if (verificadorPar < 3) {
     console.log(false);
 }
 
-*/
-
 //9º item do exercicio
 //Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
 
@@ -136,4 +134,20 @@ if (verificadorImpar > 0) {
     console.log(true);
 } else {
     console.log(false);
+}
+
+*/
+
+//10º item do exercicio
+//Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+
+let custoProduto = 10
+let valorVenda = 20
+
+if (custoProduto >= 0 && valorVenda >= 0) {
+    const custoProdImposto = custoProduto * 1.2;
+    const lucroEfetivo = (valorVenda - custoProdImposto) * 1000
+    console.log(lucroEfetivo)
+} else {
+    console.log("Os valores deve ser positivo e numericos")
 }
