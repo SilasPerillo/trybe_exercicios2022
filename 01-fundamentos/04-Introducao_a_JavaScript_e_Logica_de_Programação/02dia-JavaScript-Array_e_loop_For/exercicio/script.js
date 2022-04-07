@@ -19,12 +19,12 @@ console.log(soma);
 
 //3º item
 //Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
-*/
+
 
 let somaValores = 0
 let valorIndex = 0
 let valorMedia = 0
-/*
+
 
 for (let index = 0; index < numbers.length; index += 1) {
     somaValores += numbers[index];
@@ -34,7 +34,6 @@ for (let index = 0; index < numbers.length; index += 1) {
  valorMedia = somaValores / valorIndex;
  console.log(valorMedia);
 
-*/
 //4º item
 //Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
 
@@ -54,3 +53,17 @@ for (let index = 0; index < numbers.length; index += 1) {
 
  console.log(valorMedia);
 
+*/
+
+//5º item
+//Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+
+let maiorNumero = 0
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] > maiorNumero) {
+        maiorNumero = numbers[index];
+    } 
+}
+
+console.log(maiorNumero)
