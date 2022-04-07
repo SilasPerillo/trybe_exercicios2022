@@ -56,11 +56,9 @@ if (anguloPositivo) {
 } else {
     console.log("Valor de andulo invalido")
 }
-*/
+
 //6º item do exercicio
 //Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
-
-
 
 let peca = "Rei";
 
@@ -91,8 +89,24 @@ switch (peca.toLowerCase()) {
 
     default:
         console.log("A peça mencionada não participa do xadrez")
-
-
-
-
 }
+*/
+
+let nota = 75;
+
+if (nota <= 100 && nota >= 0) {
+    if (nota <= 100 && nota > 90) {
+        console.log("Nota A");
+    } else if (nota <= 90 && nota > 80) {
+        console.log("Nota B");      
+    } else if (nota <= 80 && nota > 70) {
+        console.log("Nota C");      
+    } else if (nota <= 60 && nota > 50) {
+        console.log("Nota D");      
+    } else {
+        console.log("Nota F");      
+    }
+} else {
+    console.log("Este valor não esta entre 0 e 100")
+}
+
