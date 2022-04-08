@@ -95,12 +95,19 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 console.log(menorNumero)
 
-*/
+//8º item
+//Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 
-let nums
+let nums = [];
 
-for(index = 1; index <= 25; index =+ 1) {
-    nums.push(index)
+for (let index = 1; index <= 25; index += 1) {
+    nums.push(index);
 }
 
 console.log(nums);
+
+*/
+
+
+
+
