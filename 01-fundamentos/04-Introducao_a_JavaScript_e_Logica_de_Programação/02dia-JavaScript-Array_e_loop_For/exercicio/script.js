@@ -116,3 +116,18 @@ for (let index = 0; index < nums.length; index += 1) {
 
 */
 
+//bonus 1
+
+let num = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 1; index < num.length; index += 1) {
+    for (let index2 = 0; index2 < index; index2 += 1) {
+        if (num[index] < num[index2]) {
+            let aux = num[index];
+            num[index] = num[index2];
+            num[index2] = aux;
+        }
+    }
+}
+
+console.log(num)
