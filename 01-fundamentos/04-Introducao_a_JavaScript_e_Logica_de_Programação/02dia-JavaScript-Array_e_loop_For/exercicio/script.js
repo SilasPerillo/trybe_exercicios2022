@@ -1,5 +1,5 @@
 
-const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 /*
 for (var imprimir of numbers) {
@@ -130,8 +130,6 @@ for (let index = 1; index < num.length; index += 1) {
 
 console.log(num)
 
-*/
-
 //bonus 2
 
 let num = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -147,3 +145,27 @@ for (let index = 1; index < num.length; index += 1) {
 }
 
 console.log(num)
+
+*/
+
+let num = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numFibbo = [];
+
+
+for (let index = 0; index < num.length; index += 1) {
+    if (index + 1 < num.length) {
+        numFibbo.push(num[index] * num[index + 1]);
+    } else {
+        numFibbo.push(num[index] * 2)
+    }
+}
+
+console.log(numFibbo);
+
+
+
+
+
+
+
+
