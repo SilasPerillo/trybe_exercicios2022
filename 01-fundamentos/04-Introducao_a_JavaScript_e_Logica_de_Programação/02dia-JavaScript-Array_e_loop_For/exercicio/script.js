@@ -104,10 +104,15 @@ for (let index = 1; index <= 25; index += 1) {
     nums.push(index);
 }
 
-console.log(nums);
+//console.log(nums);
+
+//9º item
+//Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2
+
+
+for (let index = 0; index < nums.length; index += 1) {
+    console.log(nums[index] / 2)
+}
 
 */
-
-
-
 
