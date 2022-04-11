@@ -21,8 +21,6 @@ for (let index = 0; index < word.length; index += 1) {
 
 console.log(wordInvert);
 
-*/
-
 //3 item
 //Considere o array de strings abaixo: Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
 
@@ -46,5 +44,17 @@ for (let index = 0;  index < array.length; index += 1) {
 
 console.log(maiorPalavra);
 console.log(menorPalavra);
+
+*/
+
+//4- item
+//Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
+
+let numeroMaximo = 50
+let numeroPrimo = 0
+
+for (index = 1; index <= numeroMaximo; index += 1) {
+    
+}
 
 
