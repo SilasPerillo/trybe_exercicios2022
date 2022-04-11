@@ -16,8 +16,16 @@ info['recorrente'] =  'Sim'
 // item 3
 //Faça um for/in que mostre todas as chaves do objeto. 
 
-for (lista in info) {
-    console.log(lista)
+//for (let lista in info) {
+//    console.log(lista)
+//}
+
+// item 4
+//Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto. 
+
+for (let value in info) {
+    console.log(info[value])
+
 }
 
 
