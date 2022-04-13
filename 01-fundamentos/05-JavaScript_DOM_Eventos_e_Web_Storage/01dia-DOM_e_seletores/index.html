@@ -76,15 +76,26 @@
 //Crie uma função que corrija o texto da tag <h1>.
         function item4 () {
             let texto = document.getElementsByClassName("title")[0];
-            texto.innerHTML = "Exercício 5.1 - JavaScript"
-
+            texto.innerHTML = "Exercício 5.1 - JavaScript";
         }
         item4();
 
+//Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        function item5 () {
+            let upCase = document.getElementsByTagName("p")[0];
+            upCase.innerHTML = upCase.innerHTML.toUpperCase();
+        }
+        item5();
 
-
-
-
+//Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        function item6 () {
+            let todasTags =  document.getElementsByTagName("p");
+            for (index = 0; index < todasTags.length; index += 1) {
+                console.log(todasTags[index]);
+            }
+        }
+        item6()
+        
     </script>
   </body>
 </html>
