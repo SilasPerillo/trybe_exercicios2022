@@ -58,3 +58,7 @@ footer {
     color: azure;
     background-color: gr;
 }
+
+h2, h3 {
+    text-align: center;
+}
