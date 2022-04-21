@@ -1,0 +1,9 @@
+let weekDay = "asdf";
+
+if (weekDay == "segunda-feira" || "terça-feira" || "quarta-feira" || "quinta-feira" || "sexta-feira") {
+    console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+} else if (weekDay == "sabado" || "domingo") {
+    console.log ("Oba, mais um dia de aprendizado na Trybe >:D");
+} else {
+    console.log("não eh um dia da semana ainda");
+}
