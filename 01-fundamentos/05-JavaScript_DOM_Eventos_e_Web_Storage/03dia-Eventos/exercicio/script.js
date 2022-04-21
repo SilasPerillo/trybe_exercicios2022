@@ -137,6 +137,7 @@ classTask.addEventListener('click', function (event) {
   if (classTask.className == 'task') {
     event.target.className = 'task selected';
     //event.target.classList += ' selected';
+    //event.target.classList.add(selected);
   } else {
     event.target.className = 'task'
     //event.target.classList.remove('selected')
@@ -166,13 +167,18 @@ for (let i of upSize) {
 const buttonAdd = document.querySelector('#btn-add');
 const taskInput = document.querySelector('#task-input');
 const taskList = document.querySelector('.task-list');
-/*
+
 buttonAdd.addEventListener('click', function (){
-  const 
- 
-  
+  let texto = taskInput.value;
+if (texto.length == 0){
+  return alert('erro');
+}
+ const li = document.createElement('li');
+ li.innerText = texto;
+ taskList.appendChild(li);
+ console.log('teste');
 })
-*/
+
 
 
 
