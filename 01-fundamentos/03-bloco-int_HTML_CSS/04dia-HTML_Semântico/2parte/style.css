@@ -13,7 +13,6 @@ nav {
     background-color: #A020F0;
     height: 60px;
     padding-top: 1px;
-
 }
 
 .nav_links li {
@@ -58,4 +57,8 @@ footer {
     font-size: 20px;
     color: azure;
     background-color: gr;
+}
+
+h2, h3 {
+    text-align: center;
 }
