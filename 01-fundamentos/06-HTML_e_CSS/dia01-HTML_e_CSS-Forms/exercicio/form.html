@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
   </head>
   <body>
     <form action="" method="get">
-      <h1 id="title">
+      <h1 class="title is-1 is-spaced" id="title">
         Concorra a uma incrivel viagem, a dos seus sonhos!!!<br />
         Venha com a TrybeTrip!!!
       </h1>
@@ -21,6 +22,7 @@
           minlength="10"
           maxlength="40"
           name="nome"
+          class="input is-primary is-small"
           id="fullName"
           required
         /><br />
@@ -32,6 +34,7 @@
           minlength="10"
           maxlength="50"
           name="user"
+          class="input is-primary is-small"
           id="userName"
           required
         /><br />
@@ -60,6 +63,7 @@
 
           <textarea
             name="descricao"
+            class="textarea is-primary"
             maxlength="500"
             id="textarea-1"
             cols="30"
@@ -96,9 +100,9 @@
           divulgação de concursos futuros. </label
         ><br />
       </fieldset>
-      <button type="submit" id="submit-btn" disabled>Enviar</button>
-      <button type="button" id="clear-page">Limpar Formulario</button>
-      <input type="file" id="imgSend" />
+      <button type="submit" class="button is-success" id="submit-btn" disabled>Enviar</button>
+      <button type="button" class="button is-success" id="clear-page">Limpar Formulario</button>
+      <input type="file" class="button is-success"id="imgSend" />
     </form>
 
     <script src="script.js"></script>
