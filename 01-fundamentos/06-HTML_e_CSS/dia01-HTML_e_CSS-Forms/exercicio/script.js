@@ -24,7 +24,7 @@ function clearPage() {
 
 function liberarSubmit() {
   const capReqImg = document.querySelector("#requisicaoImagens");
-  requisicaoImagens.addEventListener("change", () => {
+  capReqImg.addEventListener("change", () => {
     const capBtn = document.querySelector("#submit-btn");
     capBtn.disabled = !capReqImg.checked;
   });
