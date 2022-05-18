@@ -118,8 +118,3 @@ function authorUnique() { // some => (true) se 1 for verdadeira / every => (true
 }
 
 console.log(authorUnique());
-
-
-
-    
-
