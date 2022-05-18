@@ -101,7 +101,7 @@ function fantasyOrScienceFictionAuthors(item3) {
   return item3().map((objItem3) => objItem3.author.name).sort();
 }
 
-// console.log(fantasyOrScienceFictionAuthors(fantasyOrScienceFiction));
+console.log(fantasyOrScienceFictionAuthors(fantasyOrScienceFiction));
 
 // item 6
 
@@ -117,4 +117,4 @@ function authorWith3DotsOnName() {
   return books.find((findPoint) => findPoint.author.name.split(' ').filter((word) => word.endsWith('.')).length === 3).name;
 }
 
-console.log(authorWith3DotsOnName());
+// console.log(authorWith3DotsOnName());
