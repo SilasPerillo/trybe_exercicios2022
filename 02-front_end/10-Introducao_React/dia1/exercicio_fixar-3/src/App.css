@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  background: rgb(192, 192, 192);
+  height: 100px;
+  line-height: 100px;
+}
+
+.content {
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 80vh;
+gap: 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
