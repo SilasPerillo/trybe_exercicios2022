@@ -1,0 +1,35 @@
+.box-pokemon {
+  display: flex;
+  border: 2px solid black;
+  height: 150px;
+  justify-content: space-evenly;
+  border-radius: 17px;
+  text-align: center;
+}
+
+.div-text {
+  border: 1px solid green;
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-img {
+  display: flex;
+  border: 1px solid red;
+  align-items: stretch;
+  /* height: 60px;
+  width: 30px; */
+}
+
+#root {
+  border: 1px solid blue;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: center;
+  gap: 10px;
+}
