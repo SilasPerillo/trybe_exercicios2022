@@ -15,12 +15,21 @@
   flex-direction: column;
 }
 
+.divPai {
+  display: flex;
+  align-items:center;
+}
+
+.btn-move {
+  border-radius: 10px;
+  height: 120px;
+  margin: 15px;
+}
+
 .div-img {
   display: flex;
   border: 1px solid red;
   align-items: stretch;
-  /* height: 60px;
-  width: 30px; */
 }
 
 #root {
